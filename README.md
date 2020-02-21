@@ -54,7 +54,7 @@ kubectl apply -f ./haproxy_service.yaml
 
 ## Verification:
 ```
-kubectl get pods # should return similair output as below:
+kubectl get pods # should return similar output as below:
 
 NAME                                  READY   STATUS        RESTARTS   AGE
 haproxy-deployment-5cb69c6d5b-wk9jn   1/1     Running       0          16m
