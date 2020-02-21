@@ -2,14 +2,10 @@
 ```
 .
 ├── README.md
-├── docker
-│   ├── docker-compose.yml
+├── docker_images
 │   ├── haproxy
 │   │   ├── Dockerfile
 │   │   └── haproxy.cfg
-│   ├── k8s
-│   │   ├── nginx_deployment.yaml
-│   │   └── service.yaml
 │   └── nginx
 │       ├── app_1
 │       │   ├── Dockerfile
@@ -17,6 +13,13 @@
 │       └── app_2
 │           ├── Dockerfile
 │           └── index.html
+├── k8s
+│   ├── haproxy
+│   │   ├── haproxy_deployment.yaml
+│   │   └── haproxy_service.yaml
+│   └── nginx
+│       ├── nginx_deployment.yaml
+│       └── nginx_service.yaml
 └── terraform
     ├── README.md
     ├── main.tf
